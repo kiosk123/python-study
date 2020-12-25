@@ -45,5 +45,20 @@ $ sudo rpmdb --rebuilddb
 $ sudo yum install -y libffi-devel
 ```
 
-
 ## 환경변수 설정
+
+윈도우는 시스템 속성 - 고급 - 환경 변수를 통해 설정  
+리눅스는 .bash_profile 또는 .bashrc를 통해 설정 할 것을 권장  
+전체 사용자에게 동일하게 적용할 경우 /etc/environment 파일을 이용하여 설정할 것  
+
+* PATH  
+실행 파일을 찾는 경로의 모음 python.exe가 있는 폴더 추가 
+리눅스는 /usr/local/bin/python3 경로 설정  
+리눅스에서 PATH 설정 잘못할 경우 초기화 방법은 다음 [링크](https://somjang.tistory.com/entry/Ubuntu-PATH%EA%B0%92-%EC%B4%88%EA%B8%B0%ED%99%94-%ED%95%98%EA%B8%B0) 참고
+
+* PYTHONPATH
+파이썬에서 import 키워드를 이용한 파이썬 모듈을 찾는 추가 경로의 모음
+
+* PYTHONSTARTUP
+파이썬 인터프리터를 실행할 때 자동으로 실행되는 파이썬 스크립트 파일  
+매번 사용해야 할 모듈이 있으면 이 변수를 활용하는 것을 권장 - (**대화식 모드에서 만 동작**)
