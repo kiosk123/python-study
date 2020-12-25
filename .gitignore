@@ -3,7 +3,7 @@
 # Edit at https://www.toptal.com/developers/gitignore?templates=python,pydev
 
 ### pydev ###
-.setting
+org.eclipse.core.resources.prefs
 .project
 .pydevproject
 
