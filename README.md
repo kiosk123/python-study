@@ -48,7 +48,7 @@ $ sudo yum install -y libffi-devel
 ## 환경변수 설정
 
 윈도우는 시스템 속성 - 고급 - 환경 변수를 통해 설정  
-리눅스는 .bash_profile 또는 .bashrc를 통해 설정 할 것을 권장  
+리눅스는 .bash_profile 또는 .bashrc를 통해 설정 할 것을 권장 - [참고](https://somjang.tistory.com/entry/PythonUbuntu%EC%97%90%EC%84%9C-Python37-%ED%99%98%EA%B2%BD%EB%B3%80%EC%88%98-%EC%84%A4%EC%A0%95%ED%95%98%EA%B8%B0bashrc%ED%8C%8C%EC%9D%BC%EC%88%98%EC%A0%95)
 전체 사용자에게 동일하게 적용할 경우 /etc/environment 파일을 이용하여 설정할 것  
 
 * PATH  
