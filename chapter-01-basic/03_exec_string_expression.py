@@ -28,6 +28,18 @@ print(flag) # True
 # filename - 코드 문자열이 저장된 파일명 파일이아니라면 <string>사용
 # mode - 어떤 종류의 코드가 컴파일되어야하는지 지정 하나의 문이면 single, 하나의 식은 eval, 여러개의 문은 exec 
 code = compile('result + 1', '<string>', 'eval') 
-result = 10
+result = 12
 result = eval(code)
-print(result) # 11
+print(result) # 13
+
+# 파일을 이용한 코드 실행
+import os
+a = None # src.py에서 사용하는 변수
+filename = os.path.dirname(__file__) + '/data/src.py'
+file = open(filename)
+source = file.read()
+code = compile(source, 'src.py', 'exec');
+exec(code)
+print(a)
+file.close()
+
