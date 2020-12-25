@@ -1,9 +1,5 @@
 # -*- coding: utf-8 -*
-'''
-Created on 2020. 12. 25.
 
-@author: USER
-'''
 result = 4 + 5
 print(result) #9
 

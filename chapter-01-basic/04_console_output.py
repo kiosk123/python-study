@@ -1,16 +1,5 @@
-# -*- coding: utf-8 -*
-'''
-Created on 2020. 12. 26.
-
-@author: USER
-'''
-# -*- coding: utf-8 -*
+# -*- coding: utf-8 -**
 import math
-'''
-Created on 2020. 12. 26.
-
-@author: USER
-'''
 
 # add : 9 sub = 2
 print('add :', 4 + 5, 'sub =', 4 - 2)

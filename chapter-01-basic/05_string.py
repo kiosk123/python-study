@@ -1,10 +1,4 @@
 # -*- coding: utf-8 -*
-'''
-Created on 2020. 12. 26.
-
-@author: USER
-'''
-
 s = "Hello World!"
 
 result = s[0] 
