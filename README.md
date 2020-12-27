@@ -65,3 +65,4 @@ $ sudo yum install -y libffi-devel
 
  - 챕터
      - ch01. 파이썬 기본
+	 - ch02. 수치 자료형
