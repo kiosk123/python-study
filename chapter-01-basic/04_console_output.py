@@ -30,7 +30,16 @@ for k in range(1, 5):
 # 소수점 자리수를 3자리고 고정한 후 출력 {.을포함한 전체자릿수.소수점자리수f}
 for k in range(1, 5):
     print('sqrt ({0})={1:5.3f}'.format(k, math.sqrt(k)))
-    
+
+# 키워드를 이용한 출력
+print('나이:{age}, 키:{height}'.format(age = 19, height = 173))
+
+# 사전을 이용한 출력. format_map사용 
+print('나이:{age}, 키:{height}'.format_map({'age':19, 'height':173}))
+
+# 이름 으로 접근하여 모듈의 값 출력
+import sys
+print('{0.float_info.max}'.format(sys))
     
 # 데이터를 구조화하여 좀더 깔끔하게 출력
 import pprint

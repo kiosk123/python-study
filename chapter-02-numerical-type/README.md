@@ -15,4 +15,4 @@
 L = [ 1, 2, 3, 5, 6, 7 ]
 all(e < 10 for e in L) # True 모든 요소가 10미만인가?
 any(e < 5 for e in L) # True 한 요소라도 5미만이간?
-``` 
+```
