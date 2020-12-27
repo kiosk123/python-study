@@ -22,6 +22,15 @@ Decimal('2').sqrt() # 1.414213562
 getcontext().prec = 20
 Decimal('2').sqrt() # 1.4142135623730950488
 
+# 미리 생성된 컨텍스트 객체를 통해서 유효자릿수 유효자리수와 소수점 올림 방식을 처리가능하다
+ExtendedContext # prec 9, ROUND_HALF_EVEN
+BasicContext # prec 9 ROUND_HALF_UP
+DefaultContext # prec 28 ROUND_HALF_EVEN
+
+# 설정은 setcontext()를 호출해서 설정을 변경한다.
+setcontext(DefaultContext)
+getcontext().prec = 20
+
 Decimal(2).exp() # e^2 7.3890560989306502272
 
 Decimal('10').ln() # log(10)
